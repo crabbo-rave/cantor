@@ -1,0 +1,8 @@
+[package]
+name = "cantor"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.42.1"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "0038a0436f689d37fd3ad00d69d617c338ae6028"}
