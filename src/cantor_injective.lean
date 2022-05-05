@@ -32,7 +32,7 @@ begin
   set B' := {y : α | ∃ x : set α, f x = y ∧ x ∈ B},
   intro h,
   by_cases hp : f B' ∈ B',
-  { obtain ⟨s, hs⟩ : ∃ X, f X = f B' ∧ f X ∉ X := set.mem_set_of_eq.mp hp,
+  { obtain ⟨s, hs⟩ : ∃ X, f X = f B' ∧ f X ∉ X := mem_set_of_eq.mp hp,
     rw ← (h hs.1) at hp,
     exact hs.2 hp, },
   { exact hp ⟨B', rfl, hp⟩, }
