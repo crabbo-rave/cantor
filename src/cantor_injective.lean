@@ -3,6 +3,15 @@ import set_theory.cardinal.basic
 
 open set
 
+-- proof:
+-- First notice that B' ⊆ A. Now suppose f(B') ∈ B, 
+-- then there is X ⊆ A such that f(B') = f(X) with f(X) ∉ X, 
+-- but f is injective by assumption and so B' = X. 
+-- So together with f(X) ∉ X we get f(B') ∉ B'. 
+-- Conversely if f(B') ∉ B' then combined with B' ⊆ A and f(B') = f(B'),
+-- we have that ∃X [f(B') = f(X) ∧ f(X) ∉ X ∧ X ⊆ A], namely X = B'. 
+-- But that means that f(B') ∈ B.
+
 theorem cantor_injective {α : Type} (f : set α → α) :
   ¬function.injective f :=
 begin 

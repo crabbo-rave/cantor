@@ -4,6 +4,8 @@ import helper
 
 open set
 
+-- proof: https://en.wikipedia.org/wiki/Cantor%27s_theorem#Proof
+
 theorem cantor_surjective {α : Type} (f : α → set α) : 
   ¬function.surjective f :=
 begin 
