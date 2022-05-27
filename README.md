@@ -1,5 +1,4 @@
-# cantor
-Proofs of Cantor's Theorems in Lean 3
+Proofs of Cantor's Theorems in Lean 3. They prove that $\mathcal{P}(A)$ is bigger than $A$ even if $A$ is infinite, and where $A$ is a set.
 
 # The Theorems
 
