@@ -21,3 +21,9 @@ The thoerem of Injectivity states:
 Here is a [link](https://github.com/crabbo-rave/cantor/blob/6be022bb14e1de9345e8efc404bf6b72dcdb3a8f/src/cantor_injective.lean#L6) to the handwritten proof.
 
 This proof is much less well known than the first, and it was hard to find a formlization online. I have to thank `Neverbloom#6760` on discord for this one.
+
+# Glossary
+
+**powerset ($\mathcal{P}$)**: Given a set $S$, $\mathcal{P}(S)$ is set of all subsets of $S$ 
+
+**surjective function**: TODO
