@@ -24,6 +24,6 @@ This proof is much less well known than the first, and it was hard to find a for
 
 # Glossary
 
-**powerset ($\mathcal{P}$)**: Given a set $S$, $\mathcal{P}(S)$ is set of all subsets of $S$ 
+**powerset** $\mathcal{P}$: Given a set $S$, $\mathcal{P}(S)$ is set of all subsets of $S$ 
 
 **surjective function**: TODO
